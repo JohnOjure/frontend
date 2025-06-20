@@ -3,13 +3,15 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./App";
 import "./index.css";
-import Home from './pages/Home';
+// import Home from './pages/Home';
+import AishaDashboard from "./pages/AishaDashboard";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<AishaDashboard />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/dashboard" element={<App />} />
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>

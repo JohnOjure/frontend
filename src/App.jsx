@@ -74,7 +74,7 @@ const coreFeatures = [
 ];
 
 const teamRoles = [
-"AI Dev (Llama 3 + NLP)",
+"AI Dev (Open Ai + NLP)",
 "Curacel API (Grow/Health endpoints)",
 "Frontend (React dashboard)",
 "Backend (Python/FastAPI)",
