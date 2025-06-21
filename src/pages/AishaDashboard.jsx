@@ -11,7 +11,8 @@ const LS_ALL_MESSAGES = "allMessages";
 const LS_CURRENT_CHAT_ID = "currentChatId";
 
 async function sendChatRequest(userMessage, conversationHistory = []) {
-    const url = "https://deadly-one-seasnail.ngrok-free.app/api/chat";
+    const url = "http://127.0.0.1:8000/api/chat";
+    // const url = "https://deadly-one-seasnail.ngrok-free.app/api/chat";
     const payload = {
         user_message: userMessage,
         conversation_history: conversationHistory,

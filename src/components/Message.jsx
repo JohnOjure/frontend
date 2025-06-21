@@ -9,7 +9,7 @@ const Message = ({ message, index }) => {
 			}}
 		>
 			<div style={{
-				background: message.sender === "You" ? "#3182ce" : "#e2e8f0",
+				background: message.sender === "You" ? "#2d3748" : "#e87a64",
 				color: message.sender === "You" ? "#fff" : "#2d3748",
 				padding: "12px 18px",
 				borderRadius: 18,

@@ -18,14 +18,12 @@ const Sidebar = ({
 	setChatHistory,
 	currentChatId,
 	setCurrentChatId,
-	// allMessages,
 	setAllMessages,
 	handleNewChat,
 	handleSelectChat
 }) => {
 	const sidebarRef = useRef(null);
 
-	// Handle sidebar resizing
 	useEffect(() => {
 		const handleMouseMove = (e) => {
 			if (!isResizing) return;

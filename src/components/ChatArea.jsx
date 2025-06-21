@@ -140,7 +140,7 @@ const ChatArea = ({ messages, input, setInput, handleSend }) => {
 				</button>
 			</form>
 
-			<style jsx>{`
+			<style jsx="true" >{`
 				textarea::-webkit-scrollbar {
 					width: 4px;
 				}
